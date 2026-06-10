@@ -243,7 +243,7 @@ a {
     display: inline-block;
     padding: 5px;
     border-radius: 8px;
-    background-color: #25d366;
+    background-color: #09a944;
     box-shadow: 0 2px 5px rgb(3, 254, 3);
 }
 
@@ -261,6 +261,10 @@ a {
     border-radius: 8px;
     background-color: #c21d7a;
     box-shadow: 0 2px 5px #f843aa;
+}
+
+.contact-button:hover {
+    transform: translateY(-2px);
 }
 
 footer {
