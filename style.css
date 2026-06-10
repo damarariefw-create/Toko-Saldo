@@ -7,6 +7,8 @@
     --text-color: #060606;
     --bg-color: #ffffff7f;
     --container-color: #f2f3f9;
+    --button-second-color: #b8c0df;
+    --a-second-color: #212227;
     --border-radius: 10px;
     --transition-speed: 0.3s;
     --font-main: 'Poppins', sans-serif;
@@ -52,17 +54,24 @@ body {
 
 #menu {
     display: flex;
+    gap: 2rem;
 }
 
 #menu a {
     color: var(--light-color);
     text-decoration: none;
-    margin: 0 1rem;
     font-weight: 600;
 }
 
 #menu a:hover {
     color: var(--dark-color);
+}
+
+.theme-toggler {
+    display: flex;
+    color: var(--dark-color);
+    font-size: 34px;
+    cursor: pointer;
 }
 
 main {
@@ -88,7 +97,7 @@ section {
 
 #hero-text h2 {
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--main-color);
     line-height: 1.2;
     margin-bottom: 20px;
@@ -113,6 +122,7 @@ section {
 #btn-primary:hover {
     transform: translateY(-2px);
     background-color: var(--main-light-color);
+    box-shadow: 0 4px 10px var(--a-second-color);
 
 }
 
@@ -187,7 +197,7 @@ a {
 }
 
 #btn-secondary {
-    background-color: var(--light-color);
+    background-color: var(--button-second-color);
     padding: 10px 10px;
     border-radius: 10px;
     border: none;
@@ -199,12 +209,13 @@ a {
     text-decoration: none;
     font-size: 12px;
     font-weight: 600;
-    color: var(--text-color);
+    color: var(--a-second-color);
 }
 
 #btn-secondary:hover {
     transform: translateY(-2px);
     background-color: var(--main-light-color);
+    box-shadow: 0 4px 10px var(--a-second-color);
 }
 
 #contact-container {
@@ -258,4 +269,17 @@ footer {
     padding: 20px;
     font-size: 13px;
     color: #aab4d6;
+}
+
+body.dark-mode {
+    --primary-color: #000470;
+    --main-color: #034481;
+    --main-light-color: #0262c2;
+    --dark-color: #0074e4;
+    --light-color: #ffffff;
+    --text-color: #ffffff;
+    --bg-color: #070707f4;
+    --container-color: #17171c;
+    --button-second-color: #17171cc4;
+    --a-second-color: #f3f3f5;
 }
