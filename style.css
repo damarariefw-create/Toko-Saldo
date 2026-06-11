@@ -11,7 +11,7 @@
     --a-second-color: #212227;
     --box-shadow-color: #000000;
     --border-radius: 10px;
-    --transition-speed: 0.3s;
+    --transition-speed: 0.2s;
     --font-main: 'Poppins', sans-serif;
 }
 
@@ -62,11 +62,12 @@ body {
     color: var(--light-color);
     text-decoration: none;
     font-weight: 600;
+    transition: all 0.2s ease-in-out;
 }
 
 #menu a:hover {
     color: var(--dark-color);
-    transform: scale(1.07);
+    transform: scale(1.1);
 }
 
 .theme-toggler {
@@ -119,14 +120,15 @@ section {
     border: none;
     box-shadow: 0 4px 10px var(--main-light-color);
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 #btn-primary:hover {
     transform: translateY(-2px);
     background-color: var(--main-light-color);
     box-shadow: 0 4px 10px var(--box-shadow-color);
-
 }
+
 
 a {
     text-decoration: none;
@@ -187,12 +189,14 @@ a {
     background-color: var(--main-color);
     border-radius: 20px;
     box-shadow: 0 4px 10px var(--main-light-color);
+    transition: all 0.2s ease-in-out;
 }
 
 #product-card:hover {
     transform: translateY(-2px);
     background-color: var(--main-light-color);
     box-shadow: 0 4px 10px var(--box-shadow-color);
+    scale: 1.1;
 }
 
 
@@ -211,6 +215,7 @@ a {
     border: none;
     box-shadow: 0 4px 10px var(--main-light-color);
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 #btn-secondary a {
@@ -253,6 +258,7 @@ a {
     border-radius: 8px;
     background-color: #09a944;
     box-shadow: 0 2px 5px rgb(3, 254, 3);
+    transition: all 0.2s ease-in-out;
 }
 
 #tiktok-btn {
@@ -261,6 +267,7 @@ a {
     border-radius: 8px;
     background-color: #000000;
     box-shadow: 0 2px 5px #FE2C55;
+    transition: all 0.2s ease-in-out;
 }
 
 #instagram-btn {
@@ -269,10 +276,12 @@ a {
     border-radius: 8px;
     background-color: #c21d7a;
     box-shadow: 0 2px 5px #f843aa;
+    transition: all 0.2s ease-in-out;
 }
 
 .contact-button:hover {
     transform: translateY(-2px);
+    scale: 1.05;
 }
 
 footer {
