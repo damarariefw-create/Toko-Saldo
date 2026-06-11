@@ -195,7 +195,6 @@ a {
 #product-card:hover {
     transform: translateY(-2px);
     background-color: var(--main-light-color);
-    box-shadow: 0 4px 10px var(--box-shadow-color);
     scale: 1.1;
 }
 
@@ -303,5 +302,5 @@ body.dark-mode {
     --container-color: #17171c;
     --button-second-color: #17171cc4;
     --a-second-color: #f3f3f5;
-    --box-shadow-color: #f3f3f577;
+    --box-shadow-color: #ffffff6d;
 }
