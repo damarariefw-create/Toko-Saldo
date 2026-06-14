@@ -44,12 +44,13 @@ body {
     position: sticky;
 }
 
-#h1 {
+#title-header {
     color: var(--light-color);
+    font-size: 30px;
     font-weight: 800;
 }
 
-#h1 span {
+#title-header span {
     color: var(--dark-color);
 }
 
